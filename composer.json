@@ -1,0 +1,30 @@
+{
+    "name": "iggyvolz/openapi-generator",
+    "description": "OpenAPI generator",
+    "type": "library",
+    "require": {
+        "psr/http-client": "^1.0",
+        "nette/php-generator": "^3.6",
+        "symfony/yaml": "^5.3",
+        "nette/utils": "^3.2",
+        "psr/http-factory": "^1.0",
+        "iggyvolz/classgen": "^0.1.0"
+    },
+    "license": "BSD0",
+    "autoload": {
+        "psr-4": {
+            "Iggyvolz\\OpenapiGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "nyholm/psr7": "^1.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "guzzlehttp/psr7": "^2.1"
+    }
+}
