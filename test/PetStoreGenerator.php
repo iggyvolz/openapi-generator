@@ -1,6 +1,8 @@
 <?php
 
-class PetStoreGenerator extends \Iggyvolz\OpenapiGenerator\OpenapiGenerator
+use Iggyvolz\OpenapiGenerator\OpenapiGenerator;
+
+class PetStoreGenerator extends OpenapiGenerator
 {
 
     protected function getFile(): string
